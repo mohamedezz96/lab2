@@ -31,4 +31,4 @@ jobs:
         run: echo "${{ github.event.inputs.run_job }}"
 
       - name: testing
-        run: echo $ACTION_STEP_DEBUG
+        run: echo $ACTIONS_STEP_DEBUG
